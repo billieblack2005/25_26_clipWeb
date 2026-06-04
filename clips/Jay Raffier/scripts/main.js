@@ -11,6 +11,7 @@ let photo;
 let anim0;
 let bg = 0;
 
+
 function setup(){
 	createCanvas(windowWidth, windowHeight);
    
