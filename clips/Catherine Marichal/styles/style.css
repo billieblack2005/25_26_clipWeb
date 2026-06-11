@@ -43,7 +43,7 @@ html, body {
 }
 
 button {
-    background: url('../assets/images/bouton-play.png') center/cover no-repeat;
+    background: url('../assets/images/bouton-play.PNG') center/cover no-repeat;
     border: none;
     width: 150px;      
     height: 150px;
