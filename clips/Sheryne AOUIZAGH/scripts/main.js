@@ -326,7 +326,7 @@ function setup(){
 	sequencer.registerSequence({
 		name : "fin",
 		start : 189,
-		stop : 218,
+		stop : 225,
 		onStart : function (event){
 			fin.show();
 		},
@@ -334,7 +334,9 @@ function setup(){
 			fin.hide();
 		},
 		onStep : function (event){
-			fin.next(true);
+
+
+			fin.next(event.step < 215);
 		},
 		
 		measure: 1,
