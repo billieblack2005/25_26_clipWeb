@@ -151,7 +151,7 @@ function setup(){
 	fin.setSize(width, height);
 	fin.setPosition(0, 0)
 
-	background= new Animator(1,4,"./background.png")
+	background= new Animator(1,4,"./Background.png")
 	background.setSize(width, height);
 	background.setPosition(0, 0)
 
