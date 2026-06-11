@@ -31,7 +31,7 @@ function setup(){
 	sequencer = new Sequencer(audioPath, BPM,false);
 
 	ouverture= new Animator(1,77,"./assets/images/Ouverture/_imgNum_.jpg");
-	apparition= new Animator(1,2,"./assets/images/apparition/_imgNum_.jpg");
+	apparition= new Animator(1,2,"./assets/images/Apparition/_imgNum_.jpg");
 	marche= new Animator(1,31,"./assets/images/Refrain/_imgNum_.jpg");
 	approche= new Animator(1,14,"./assets/images/Approche/_imgNum_.jpg");
 	admiration= new Animator(1,2,"./assets/images/Admiration/_imgNum_.jpg");
