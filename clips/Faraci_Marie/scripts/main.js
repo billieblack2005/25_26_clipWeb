@@ -50,104 +50,104 @@ function setup(){
 	sequencer = new Sequencer(audioPath, BPM, false);
 
 	imageMode(CENTER);
-	refrain1= new Animator(1,4,"./assets/images/Anim1/_imgNum_.png")
+	refrain1= new Animator(1,4,"./assets/Images/Anim1/_imgNum_.png")
 	refrain1.setSize(width, height);
 	refrain1.setPosition(0, 0)
-	refrain2= new Animator(1,4,"./assets/images/Anim2/_imgNum_.png")
+	refrain2= new Animator(1,4,"./assets/Images/Anim2/_imgNum_.png")
 	refrain2.setSize(width, height);
 	refrain2.setPosition(0, 0)
-	refrain3= new Animator(1,4,"./assets/images/Anim4/_imgNum_.png")
+	refrain3= new Animator(1,4,"./assets/Images/Anim4/_imgNum_.png")
 	refrain3.setSize(width, height);
 	refrain3.setPosition(0, 0)
-	refrain4= new Animator(1,4,"./assets/images/Anim5/_imgNum_.png")
+	refrain4= new Animator(1,4,"./assets/Images/Anim5/_imgNum_.png")
 	refrain4.setSize(width, height);
 	refrain4.setPosition(0, 0)
-	run1= new Animator(1,4,"./assets/images/Anim14/_imgNum_.png")
+	run1= new Animator(1,4,"./assets/Images/Anim14/_imgNum_.png")
 	run1.setSize(width, height);
 	run1.setPosition(0, 0)
-	run2= new Animator(1,4,"./assets/images/Anim15/_imgNum_.png")
+	run2= new Animator(1,4,"./assets/Images/Anim15/_imgNum_.png")
 	run2.setSize(width, height);
 	run2.setPosition(0, 0)
-	run3= new Animator(1,4,"./assets/images/Anim19/_imgNum_.png")
+	run3= new Animator(1,4,"./assets/Images/Anim19/_imgNum_.png")
 	run3.setSize(width, height);
 	run3.setPosition(0, 0)
-	run4= new Animator(1,4,"./assets/images/Anim20/_imgNum_.png")
+	run4= new Animator(1,4,"./assets/Images/Anim20/_imgNum_.png")
 	run4.setSize(width, height);
 	run4.setPosition(0, 0)
-	intro= new Animator(1,8,"./assets/images/Anim3/_imgNum_.png")
+	intro= new Animator(1,8,"./assets/Images/Anim3/_imgNum_.png")
 	intro.setSize(width, height);
 	intro.setPosition(0, 0)
-	couplet_1= new Animator(1,4,"./assets/images/Anim6/_imgNum_.png")
+	couplet_1= new Animator(1,4,"./assets/Images/Anim6/_imgNum_.png")
 	couplet_1.setSize(width, height);
 	couplet_1.setPosition(0, 0)
-	couplet_2= new Animator(1,4,"./assets/images/Anim7/_imgNum_.png")
+	couplet_2= new Animator(1,4,"./assets/Images/Anim7/_imgNum_.png")
 	couplet_2.setSize(width, height);
 	couplet_2.setPosition(0, 0)
-	couplet_3= new Animator(1,4,"./assets/images/Anim8/_imgNum_.png")
+	couplet_3= new Animator(1,4,"./assets/Images/Anim8/_imgNum_.png")
 	couplet_3.setSize(width, height);
 	couplet_3.setPosition(0, 0)
-	couplet_4= new Animator(1,4,"./assets/images/Anim9/_imgNum_.png")
+	couplet_4= new Animator(1,4,"./assets/Images/Anim9/_imgNum_.png")
 	couplet_4.setSize(width, height);
 	couplet_4.setPosition(0, 0)
-	couplet2_1= new Animator(1,8,"./assets/images/Anim10/_imgNum_.png")
+	couplet2_1= new Animator(1,8,"./assets/Images/Anim10/_imgNum_.png")
 	couplet2_1.setSize(width, height);
 	couplet2_1.setPosition(0, 0)
-	couplet2_2= new Animator(1,8,"./assets/images/Anim11/_imgNum_.png")
+	couplet2_2= new Animator(1,8,"./assets/Images/Anim11/_imgNum_.png")
 	couplet2_2.setSize(width, height);
 	couplet2_2.setPosition(0, 0)
-	couplet2_3= new Animator(1,8,"./assets/images/Anim12/_imgNum_.png")
+	couplet2_3= new Animator(1,8,"./assets/Images/Anim12/_imgNum_.png")
 	couplet2_3.setSize(width, height);
 	couplet2_3.setPosition(0, 0)
-	couplet2_4= new Animator(1,8,"./assets/images/Anim13/_imgNum_.png")
+	couplet2_4= new Animator(1,8,"./assets/Images/Anim13/_imgNum_.png")
 	couplet2_4.setSize(width, height);
 	couplet2_4.setPosition(0, 0)
-	couplet2_4B= new Animator(1,8,"./assets/images/Anim13B/_imgNum_.png")
+	couplet2_4B= new Animator(1,8,"./assets/Images/Anim13B/_imgNum_.png")
 	couplet2_4B.setSize(width, height);
 	couplet2_4B.setPosition(0, 0)
-	couplet3_1= new Animator(1,16,"./assets/images/Anim16/_imgNum_.png")
+	couplet3_1= new Animator(1,16,"./assets/Images/Anim16/_imgNum_.png")
 	couplet3_1.setSize(width, height);
 	couplet3_1.setPosition(0, 0)
-	couplet3_2= new Animator(1,4,"./assets/images/Anim17/_imgNum_.png")
+	couplet3_2= new Animator(1,4,"./assets/Images/Anim17/_imgNum_.png")
 	couplet3_2.setSize(width, height);
 	couplet3_2.setPosition(0, 0)
-	couplet3_3= new Animator(1,4,"./assets/images/Anim18/_imgNum_.png")
+	couplet3_3= new Animator(1,4,"./assets/Images/Anim18/_imgNum_.png")
 	couplet3_3.setSize(width, height);
 	couplet3_3.setPosition(0, 0)
-	couplet3_4= new Animator(1,8,"./assets/images/Anim28/_imgNum_.png")
+	couplet3_4= new Animator(1,8,"./assets/Images/Anim28/_imgNum_.png")
 	couplet3_4.setSize(width, height);
 	couplet3_4.setPosition(0, 0)
-	couplet3_5= new Animator(1,8,"./assets/images/Anim29/_imgNum_.png")
+	couplet3_5= new Animator(1,8,"./assets/Images/Anim29/_imgNum_.png")
 	couplet3_5.setSize(width, height);
 	couplet3_5.setPosition(0, 0)
 
-	run5= new Animator(1,8,"./assets/images/Anim21/_imgNum_.png")
+	run5= new Animator(1,8,"./assets/Images/Anim21/_imgNum_.png")
 	run5.setSize(width, height);
 	run5.setPosition(0, 0)
-	run6= new Animator(1,8,"./assets/images/Anim22/_imgNum_.png")
+	run6= new Animator(1,8,"./assets/Images/Anim22/_imgNum_.png")
 	run6.setSize(width, height);
 	run6.setPosition(0, 0)
-	run7= new Animator(1,8,"./assets/images/Anim24/_imgNum_.png")
+	run7= new Animator(1,8,"./assets/Images/Anim24/_imgNum_.png")
 	run7.setSize(width, height);
 	run7.setPosition(0, 0)
-	run8= new Animator(1,8,"./assets/images/Anim25/_imgNum_.png")
+	run8= new Animator(1,8,"./assets/Images/Anim25/_imgNum_.png")
 	run8.setSize(width, height);
 	run8.setPosition(0, 0)
-	run9= new Animator(1,8,"./assets/images/Anim26/_imgNum_.png")
+	run9= new Animator(1,8,"./assets/Images/Anim26/_imgNum_.png")
 	run9.setSize(width, height);
 	run9.setPosition(0, 0)
-	run10= new Animator(1,8,"./assets/images/Anim27/_imgNum_.png")
+	run10= new Animator(1,8,"./assets/Images/Anim27/_imgNum_.png")
 	run10.setSize(width, height);
 	run10.setPosition(0, 0)
-	run11= new Animator(1,8,"./assets/images/Anim26B/_imgNum_.png")
+	run11= new Animator(1,8,"./assets/Images/Anim26B/_imgNum_.png")
 	run11.setSize(width, height);
 	run11.setPosition(0, 0)
-	run12= new Animator(1,8,"./assets/images/Anim27B/_imgNum_.png")
+	run12= new Animator(1,8,"./assets/Images/Anim27B/_imgNum_.png")
 	run12.setSize(width, height);
 	run12.setPosition(0, 0)
-	outro= new Animator(1,8,"./assets/images/Anim23/_imgNum_.png")
+	outro= new Animator(1,8,"./assets/Images/Anim23/_imgNum_.png")
 	outro.setSize(width, height);
 	outro.setPosition(0, 0)
-	fin= new Animator(1,12,"./assets/images/Anim30/_imgNum_.png")
+	fin= new Animator(1,12,"./assets/Images/Anim30/_imgNum_.png")
 	fin.setSize(width, height);
 	fin.setPosition(0, 0)
 
