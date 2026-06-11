@@ -1,3 +1,3 @@
-The Gazette
-A MOTH UNDER THE SKIN
-https://www.youtube.com/watch?v=OyYWbgDXWBY
+Mac Demarco
+20200802
+https://youtu.be/-dSBBO-JER0

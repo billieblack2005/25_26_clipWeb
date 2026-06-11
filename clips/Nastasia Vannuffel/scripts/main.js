@@ -63,117 +63,117 @@ function setup(){
 	sequencer = new Sequencer(audioPath, BPM, false);
     
     anim1= new Animator(1, 10,"./assets/images/roses/_imgNum_.jpg")
-    anim1.setSize(1520, 855);
+    anim1.setSize(width, height);
    // anim1.setPosition(width/2,height/2)
 
    anim2= new Animator(50, 241,"./assets/images/singlerose/_imgNum_.jpg")
-    anim2.setSize(1520, 855);
+    anim2.setSize(width, height);
 
     anim3= new Animator(1, 65,"./assets/images/singlerose/white_imgNum_.jpg")
-    anim3.setSize(1520, 855);
+    anim3.setSize(width, height);
 
     anim4= new Animator(50, 241,"./assets/images/singlerose/_imgNum_.jpg")
-    anim4.setSize(1520, 855);
+    anim4.setSize(width, height);
 
     anim5= new Animator(1, 65,"./assets/images/singlerose/white_imgNum_.jpg")
-    anim5.setSize(1520, 855);
+    anim5.setSize(width, height);
 
     anim6= new Animator(1, 14,"./assets/images/butterfly/altreverse_imgNum_.jpg")
-    anim6.setSize(1520, 855);
+    anim6.setSize(width, height);
     
     anim7= new Animator(1, 3,"./assets/images/abnormal1/_imgNum_.jpg")
-    anim7.setSize(1520, 855);
+    anim7.setSize(width, height);
 
     //comprendre 71 et 72 comme 7.1 7.2
     anim71= new Animator(4, 6,"./assets/images/abnormal1/_imgNum_.jpg")
-    anim71.setSize(1520, 855);
+    anim71.setSize(width, height);
 
     anim72= new Animator(7, 9,"./assets/images/abnormal1/_imgNum_.jpg")
-    anim72.setSize(1520, 855);
+    anim72.setSize(width, height);
 
     anim8= new Animator(1, 15,"./assets/images/brokenrose/_imgNum_.jpg")
-    anim8.setSize(1520, 855);
+    anim8.setSize(width, height);
 
     anim9= new Animator(1, 22,"./assets/images/thunder/_imgNum_.jpg")
-    anim9.setSize(1520, 855);
+    anim9.setSize(width, height);
 
     anim11= new Animator(1, 14,"./assets/images/butterfly/alt_imgNum_.jpg")
-    anim11.setSize(1520, 855);
+    anim11.setSize(width, height);
 
     anim12= new Animator(1, 3,"./assets/images/abnormal2/_imgNum_.jpg")
-    anim12.setSize(1520, 855);
+    anim12.setSize(width, height);
 
     //même principe 12.1 12.2
 
     anim121= new Animator(4, 6,"./assets/images/abnormal2/_imgNum_.jpg")
-    anim121.setSize(1520, 855);
+    anim121.setSize(width, height);
 
     anim122= new Animator(7, 9,"./assets/images/abnormal2/_imgNum_.jpg")
-    anim122.setSize(1520, 855);
+    anim122.setSize(width, height);
 
     anim13= new Animator(1, 217,"./assets/images/moonbasic/_imgNum_.jpg")
-    anim13.setSize(1520, 855);
+    anim13.setSize(width, height);
 
     anim14= new Animator(1, 52,"./assets/images/smilingmoon/_imgNum_.jpg")
-    anim14.setSize(1520, 855);
+    anim14.setSize(width, height);
 
     anim15= new Animator(1, 30,"./assets/images/butterflydada/_imgNum_.jpg")
-    anim15.setSize(1520, 855);
+    anim15.setSize(width, height);
 
     anim17= new Animator(31, 60,"./assets/images/butterflydada/_imgNum_.jpg")
-    anim17.setSize(1520, 855);
+    anim17.setSize(width, height);
 
     anim18= new Animator(61, 90,"./assets/images/butterflydada/_imgNum_.jpg")
-    anim18.setSize(1520, 855);
+    anim18.setSize(width, height);
 
     anim19= new Animator(91, 114,"./assets/images/butterflydada/_imgNum_.jpg")
-    anim19.setSize(1520, 855);
+    anim19.setSize(width, height);
 
     anim20= new Animator(110, 114,"./assets/images/butterflydada/_imgNum_.jpg")
-    anim20.setSize(1520, 855);
+    anim20.setSize(width, height);
 
     anim21= new Animator(1, 25,"./assets/images/tourbillonpause/_imgNum_.jpg")
-    anim21.setSize(1520, 855);
+    anim21.setSize(width, height);
 
     anim211= new Animator(1, 22,"./assets/images/thunder/_imgNum_.jpg")
-    anim211.setSize(1520, 855);
+    anim211.setSize(width, height);
 
     anim22= new Animator(1, 15,"./assets/images/fulldada/_imgNum_.jpg")
-    anim22.setSize(1520, 855);
+    anim22.setSize(width, height);
 
     anim23= new Animator(16, 26,"./assets/images/fulldada/_imgNum_.jpg")
-    anim23.setSize(1520, 855);
+    anim23.setSize(width, height);
 
 
     anim0= new Animator(1,2,"./assets/images/moth/moth_imgNum_.jpg")
-    anim0.setSize(1520, 855);
+    anim0.setSize(width, height);
 
     anim24= new Animator(1, 25,"./assets/images/pauselune/_imgNum_.jpg")
-    anim24.setSize(1520, 855);
+    anim24.setSize(width, height);
 
     anim25= new Animator(1, 14,"./assets/images/mothflying/_imgNum_.jpg")
-    anim25.setSize(1520, 855)
+    anim25.setSize(width, height)
 
     anim26= new Animator(1, 241,"./assets/images/flymetothemoon/_imgNum_.jpg")
-    anim26.setSize(1520, 855)
+    anim26.setSize(width, height)
 
     anim27= new Animator(242, 338,"./assets/images/flymetothemoon/_imgNum_.jpg")
-    anim27.setSize(1520, 855)
+    anim27.setSize(width, height)
 
     anim28= new Animator(1, 80,"./assets/images/amothundertheskin/_imgNum_.jpg")
-    anim28.setSize(1520, 855)
+    anim28.setSize(width, height)
 
     anim281= new Animator(1, 80,"./assets/images/amothundertheskin/_imgNum_.jpg")
-    anim281.setSize(1520, 855)
+    anim281.setSize(width, height)
 
     anim281= new Animator(76, 77,"./assets/images/amothundertheskin/_imgNum_.jpg")
-    anim281.setSize(1520, 855)
+    anim281.setSize(width, height)
 
     anim29= new Animator(1, 25,"./assets/images/credits/_imgNum_.jpg")
-    anim29.setSize(1520, 855)
+    anim29.setSize(width, height)
 
     anim30= new Animator(23, 25,"./assets/images/credits/_imgNum_.jpg")
-    anim30.setSize(1520, 855)
+    anim30.setSize(width, height)
 
    // anim0.setPosition(width/2,height/2)
 
